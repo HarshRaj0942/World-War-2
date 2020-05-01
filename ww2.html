@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type = "text/css" href="ww2.css">
+    <link rel="icon" href="title_logo.jpg" type="image/icon type">
+    <title>WW2</title>
+
+  </head>
+  <body>
+    
+
+  <!-- video background -->
+
+   
+<div class="fullscreen-bg">
+  <video loop muted autoplay  class="fullscreen-bg__video">
+      <source src="background.mp4" type="video/webm">
+      <source src="background.mp4" type="video/mp4">
+      <source src="background.mp4" type="video/ogg">
+  </video>
+</div>
+    
+
+    <!-- video over -->
+    <!-- Note: navbar-light/navbar-dark is needed to load the navbar-toggler-icon.-->
+    <nav id ="mainNavBar" class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">World War 2</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- The Third Reich -->
+
+     <div id="Germany" class="container px-0">
+      <div class="card px-0 py-0 ">
+        <a href="https://en.wikipedia.org/wiki/Adolf_Hitler" target=" "><img id ="hitler" class="card-img-top profile px-0 py-0" src="adolf-hitler-medium.jpg" alt="Adolf Hitler" title="Adolf Hitler Wiki"></a>
+        <div class="card-body px-0 py-0">
+          <hr >
+          <p class="card-text">
+            <h2 class="title" ><a href="https://en.wikipedia.org/wiki/Nazi_Germany" target=" " title="Click here for details on Nazi Germany">The Third Reich</a></h2>
+            <p></p>
+          </p>
+        </div>
+      </div>
+     </div>
+
+
+
+
+     <!-- Soviet Union -->
+
+     <div id="USSR" class="container ussr px-0">
+      <div class="card px-0 py-0 ">
+        <a href="https://en.wikipedia.org/wiki/Joseph_Stalin" target=" "><img class="card-img-top px-0 py-0" src="stalin.jpg" alt="Joseph Stalin" title="Joseph Stalin Wiki"></a>
+        
+        <div class="card-body px-0 py-0">
+          <hr >
+          <p class="card-text">
+            <h2 class="title" ><a href="https://en.wikipedia.org/wiki/Soviet_Union" target=" " title="Click here for details on the Soviet Union">The Soviet Union</a></h2>
+            <p></p>
+          </p>
+        </div>
+      </div>
+     </div>
+
+
+     <!-- United Kingdom -->
+
+     <div id="UK" class="container px-0">
+      <div class="card px-0 py-0 ">
+        <a href="https://en.wikipedia.org/wiki/Winston_Churchill" target=" "><img class="card-img-top px-0 py-0" src="churchill.jpg" alt="Winston Chruchill" title="Winston Churchill"></a>
+        
+        <div class="card-body px-0 py-0">
+          <hr >
+          <p class="card-text">
+            <h2 class="title" ><a href="https://en.wikipedia.org/wiki/United_Kingdom" target=" " title="Click here for details on the United Kingdom">United Kingdom</a></h2>
+            <p></p>
+          </p>
+        </div>
+      </div>
+     </div>
+
+
+      <!-- The United States -->
+
+      <div id="US" class="container us px-0">
+        <div class="card px-0 py-0 ">
+          <a href="https://en.wikipedia.org/wiki/Franklin_D._Roosevelt" target=" "> <img class="card-img-top px-0 py-0" src="fdr.jpg" alt="Franklin Delano Roosevelt" title="FDR Wiki"></a>
+         
+          <div class="card-body px-0 py-0">
+            <hr >
+            <p class="card-text">
+              <h2 class="title" ><a href="https://en.wikipedia.org/wiki/United_States" target=" " title="Click here for details on The United States">The United States</a></h2>
+              <p></p>
+            </p>
+          </div>
+        </div>
+       </div>
+
+    <!-- Japan -->
+
+    <div id="Japan" class="container px-0">
+      <div class="card px-0 py-0 ">
+        <a href="https://en.wikipedia.org/wiki/Hideki_Tojo" target=" "><img class="card-img-top px-0 py-0" src="hideki_tojo.jpg" alt="Hideki Tojo" title="Hideki Tojo Wiki"></a>
+        
+        <div class="card-body px-0 py-0">
+          <hr >
+          <p class="card-text">
+            <h2 class="title" ><a href="https://en.wikipedia.org/wiki/Empire_of_Japan" target=" " title="Click here for details on The Empire">The Empire of Japan</a></h2>
+            <p></p>
+          </p>
+        </div>
+      </div>
+     </div>
+
+
+
+
+
+
+
+
+<!-- jquery and js scripts -->
+       
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,378 @@
+body {
+
+    background:darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.flag-figure {
+    width: 70%;
+}
+
+.flag-figure img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.portraits {
+
+    width: 50%;
+    height:50%;
+}
+ 
+.portraits img {
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+
+#mainNavBar .navbar-brand {
+
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+} 
+
+#mainNavBar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color:#EA1C2C;
+}
+
+
+#mainNavBar {
+
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.axis {
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+.card {
+
+    width: 20rem;
+    height: auto;
+    background-color: burlywood;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+/* CSS for The Third Reich */
+
+#Germany{
+    background-image: url("https://static.wixstatic.com/media/1fd2d6_f40bd6a64693492dbeb10ad4185706cc~mv2_d_1920_1200_s_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    border: 4px solid black;  
+    /* opacity: 0.5; */
+}
+
+
+.profile {
+    opacity: 1;
+}
+
+#Germany .card-img-top {
+
+    padding: 20px;
+}
+
+
+#Germany .card-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Germany .card-img-top {
+
+ border: 1px solid darkblue;
+ border-radius: 500px;
+ background-color:;
+  /* padding: 5px; */
+  /* width: 150px; */ */
+}
+
+#Germany hr {
+
+    border-top: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#Germany  .title {
+
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#Germany .title a {
+    color: darkblue;
+}
+
+
+/* CSS for Soviet Union */
+
+.ussr {
+
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+#USSR {
+    background-image: url("soviet_union.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    border: 4px solid black;  
+}
+
+
+
+#USSR .card-img-top {
+
+    padding: 20px;
+}
+
+
+#USSR .card-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+#USSR .card-img-top {
+
+ border: 1px solid darkblue;
+ border-radius: 500px;
+ background-color:;
+  /* padding: 5px; */
+  /* width: 150px; */ */
+}
+
+#USSR hr {
+
+    border-top: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#USSR  .title {
+
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#USSR .title a {
+    color: darkblue;
+}
+
+
+/* CSS for the UK */
+
+#UK {
+    background-image: url("united_kingdom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    border: 4px solid black;  
+}
+
+
+#UK .card-img-top {
+
+    padding: 20px;
+}
+
+
+#UK .card-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+#UK .card-img-top {
+
+ border: 1px solid darkblue;
+ border-radius: 500px;
+ background-color:;
+  /* padding: 5px; */
+  /* width: 150px; */ */
+}
+
+#UK hr {
+
+    border-top: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#UK  .title {
+
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#UK .title a {
+    color: darkblue;
+}
+
+
+
+/* CSS for The United States */
+
+.us {
+
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+#US {
+    background-image: url("us.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    border: 4px solid black;  
+}
+
+
+
+#US .card-img-top {
+
+    padding: 20px;
+}
+
+
+#US .card-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+#US .card-img-top {
+
+ border: 1px solid darkblue;
+ border-radius: 500px;
+ background-color:;
+  /* padding: 5px; */
+  /* width: 150px; */ */
+}
+
+#US hr {
+
+    border-top: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#US  .title {
+
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#US .title a {
+    color: darkblue;
+}
+
+
+/* CSS for The Empire of Japan */
+#Japan {
+    background-image: url("japan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    border: 4px solid black;  
+}
+
+
+#Japan .card-img-top {
+
+    padding: 20px;
+}
+
+
+#Japan .card-text {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Japan .card-img-top {
+
+ border: 1px solid darkblue;
+ border-radius: 500px;
+ background-color:;
+  /* padding: 5px; */
+  /* width: 150px; */ */
+}
+
+#Japan hr {
+
+    border-top: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#Japan  .title {
+
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#Japan .title a {
+    color: darkblue;
+}
+
+
+/* for video in the background */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: auto;
+      height: 100%;
+    }
+  }
